@@ -36,7 +36,7 @@ text-transform:uppercase;
 }
 
 .containerchild {
-height:55%;
+/*height:55%;*/
 }
 .LexDec, p {
 color:hsla(0,0%,100%,0.75);
