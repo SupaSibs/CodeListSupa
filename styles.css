@@ -30,7 +30,7 @@ background-color:#000;
 }
 }
 
-h1 {
+.BigShoDis {
 font-family:'Big Shoulders Display';
 text-transform:uppercase;
 }
@@ -38,8 +38,7 @@ text-transform:uppercase;
 .containerchild {
 height:55%;
 }
-
-p {
+.LexDec {
 color:hsla(0,0%,100%,0.75);
 font-family:'Lexend Deca';
 }
