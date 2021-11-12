@@ -3,6 +3,7 @@
 
 
 body {
+  border: solid white 15px;
 min-height: 95vh;
   color: white;
 }
@@ -30,12 +31,13 @@ min-height: 95vh;
 }
 h1 {
   /* The font family does not work here */
-font-family: "Big Shoulders Display";
+font-family: 'Big Shoulders Display';
 text-transform: uppercase;
 }
 .containerchild {height: 55%;}
-p {color: hsla(0, 0%, 100%, 0.75);
-
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+ font-family: ;
 }
 .sect {border: solid white;}
 .color1 {background-color: hsl(31, 77%, 52%);}
@@ -49,3 +51,4 @@ p {color: hsla(0, 0%, 100%, 0.75);
 .cc3 {
   border-radius: 0 5px 5px 0;
   }
+  .padding {padding: 16px 32px 16px 32px;}
