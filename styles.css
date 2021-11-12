@@ -14,7 +14,6 @@ grid-template-rows:100%;
 grid-template-columns:repeat(3,26%);
 align-items:center;
 justify-content:center;
-background-color:#fff;
 }
 
 @media screen and (max-width: 500px) {
