@@ -1,56 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-
-
+@import "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap";
 
 body {
-min-height: 100vh;
-  max-height: 100vh;
-  color: white;
+min-height:100vh;
+max-height:100vh;
+color:#fff;
 }
 
 .container {
-    min-height: 95vh;
-  min-width: 95vw;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: repeat(3, 26%);
-    align-items: center;
-  justify-content: center;
-  background-color: white;
+min-height:95vh;
+min-width:95vw;
+display:grid;
+grid-template-rows:100%;
+grid-template-columns:repeat(3,26%);
+align-items:center;
+justify-content:center;
+background-color:#fff;
 }
+
 @media screen and (max-width: 500px) {
-  .container {
-  min-height: 95vh;
-  min-width: 95vw;
-  display: grid;
-  grid-template-rows: repeat(3, 100%);
-  grid-template-columns: 100%;
-    align-items: center;
-  justify-content: center;
-  background-color: black;
+.container {
+min-height:95vh;
+min-width:95vw;
+display:grid;
+grid-template-rows:repeat(3,100%);
+grid-template-columns:100%;
+align-items:center;
+justify-content:center;
+background-color:#000;
 }
 }
+
 h1 {
-  /* The font family does not work here */
-font-family: 'Big Shoulders Display';
-text-transform: uppercase;
+font-family:'Big Shoulders Display';
+text-transform:uppercase;
 }
-.containerchild {height: 55%;}
+
+.containerchild {
+height:55%;
+}
+
 p {
-  color: hsla(0, 0%, 100%, 0.75);
- font-family: 'Lexend Deca';
+color:hsla(0,0%,100%,0.75);
+font-family:'Lexend Deca';
 }
-.sect {border: solid white;}
-.color1 {background-color: hsl(31, 77%, 52%);}
-.color2 {background-color: hsl(184, 100%, 22%);}
-.color3 {background-color: hsl(179, 100%, 13%);}
-.roundimg {border-radius: 50%;}
+
+.sect {
+border:solid #fff;
+}
+
+.color1 {
+background-color:hsl(31,77%,52%);
+}
+
+.color2 {
+background-color:hsl(184,100%,22%);
+}
+
+.color3 {
+background-color:hsl(179,100%,13%);
+}
+
+.roundimg {
+border-radius:50%;
+}
+
 .cc1 {
-  border-radius: 5px 0 0 5px; 
-    }
+border-radius:5px 0 0 5px;
+}
 
 .cc3 {
-  border-radius: 0 5px 5px 0;
-  }
-  .padding {padding: 16px 32px 16px 32px;}
-  .margin {margin-bottom: 64px;}
+border-radius:0 5px 5px 0;
+}
+
+.padding {
+padding:16px 32px;
+}
+
+.margin {
+margin-bottom:64px;
+}
