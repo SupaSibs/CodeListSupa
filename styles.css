@@ -7,7 +7,7 @@ min-height: 100vh;
   max-height: 100vh;
   color: white;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 500px) {
   .container {
   min-height: 95vh;
   min-width: 95vw;
