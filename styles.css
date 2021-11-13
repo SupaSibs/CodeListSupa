@@ -75,7 +75,9 @@ border-radius: 7px 7px 0 0;
 .cc3 {
   border-radius: 0 0 7px 7px;
 }
-
+.w3-card-2 {
+ grid-template-rows: initial;
+  }
 }
 
 
