@@ -123,39 +123,5 @@ border: solid hsl(0, 0%, 95%);
 .roundbit {
 border-radius: 20px;
   width: 65%;
-  height: 25%
+  height: 10%
 }
-.Moveright1 {
- animation-name: sedan;
-  animation-duration: 1s;
-  }
-.Moveright2 {
-  animation-name: suv;
-  animation-duration: 1s;
-  }
-.Moveright3 {
-  animation-name: luxury;
-  animation-duration: 1s;
-  [
-@keyframes sedan {
- from {
-  position: relative;
-   margin-left: 0;
-  } 
-  15% {
-   position: relative;
-   margin-left: 50px; 
-  }
-  30% {
-    position: relative;
-   margin-left: 125px
-  }
-  65% {
-    position: relative;
-   margin-left: 300px;
-  }
-  to {
-    position: relative;
-   margin-left: 0;
-  }
-  }
