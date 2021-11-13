@@ -11,13 +11,13 @@ min-height:95vh;
 min-width:95vw;
 display:grid;
 grid-template-rows:100%;
-grid-template-columns:repeat(3, 305px);
+grid-template-columns:repeat(3, 305%);
 align-items:center;
 justify-content:center;
   background-color: hsl(0, 0%, 95%)
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
 .container {
 min-height:95vh;
 min-width:95vw;
@@ -36,7 +36,7 @@ text-transform:uppercase;
 }
 
 .containerchild {
-height:63%;
+height:57%;
  
 }
 .LexDec, p {
@@ -66,16 +66,31 @@ background-color:hsl(179,100%,13%);
 .roundimg {
 border-radius:50%;
 }
+.cc1 {border-radius: 7px 0 0 7px}
+.cc3 {border-radius: 0 7px 7px 0}
+@media screen and (max-width: 375px)  {
+  .cc1 {
+border-radius: 7px 7px 0 0;  
+}
+.cc2 {
+  border-radius: 0 0 7px 7px;
+}
 
+}
 
 
 
 .padding {
-padding: 40px 60px 30px 80px;
+padding: 40px 45px 30px 45px;
+box-shadow: 2px 2px 3px grey;
 }
 
 .margin {
-margin-bottom:100px;
+margin-bottom:70px;
+}
+.margin3 {
+ margin-bottom: 50px; 
+  
 }
 
 .but1 {
@@ -112,6 +127,7 @@ border: solid hsl(0, 0%, 95%);
 }
 .roundbit {
 border-radius: 20px;
-  width: 80%;
-  height: 15%
+  width: 60%;
+  height: 10%;
+font-family: 'Lexend Deca';
 }
