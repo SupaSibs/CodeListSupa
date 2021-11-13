@@ -137,3 +137,25 @@ border-radius: 20px;
   animation-name: luxury;
   animation-duration: 1s;
   [
+@keyframes sedan {
+ from {
+  position: relative;
+   left: 0;
+  } 
+  15% {
+   position: relative;
+   left: 50px; 
+  }
+  30% {
+    position: relative;
+   left: 125px
+  }
+  65% {
+    position: relative;
+   left: 300px;
+  }
+  to {
+    position: relative;
+   left: 0;
+  }
+  }
