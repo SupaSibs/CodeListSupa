@@ -125,3 +125,13 @@ border-radius: 20px;
   width: 65%;
   height: 25%
 }
+.Moveright1 {
+ animation-name: sedan;
+  animation-duration: 1s
+  }
+.Moveright2 {
+  animation-name: suv;
+  }
+.Moveright3 {
+  animation-name: luxury;
+  [
