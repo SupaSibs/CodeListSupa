@@ -34,7 +34,7 @@ text-transform:uppercase;
 }
 
 .containerchild {
-/*height:55%;*/
+height:55%;
 }
 .LexDec, p {
 color:hsla(0,0%,100%,0.75);
@@ -79,7 +79,7 @@ padding:16px 32px;
 .margin {
 margin-bottom:64px;
 }
-@media screen and(max-width: 500px;) {
+@media screen and (max-width: 500px;) {
 .cc1, .cc2, .cc3 {
   border-radius: 7px;
   }
