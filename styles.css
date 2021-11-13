@@ -97,7 +97,7 @@ color: hsl(31, 77%, 52%);
 .but1:hover {
 border: solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
-   1background-color: hsl(31, 77%, 52%);
+   background-color: hsl(31, 77%, 52%);
 }
 .but2 {
 color: hsl(184, 100%, 22%);
@@ -122,5 +122,6 @@ border: solid hsl(0, 0%, 95%);
 }
 .roundbit {
 border-radius: 20px;
-  width: 55%;
+  width: 65%;
+  height: 15%
 }
