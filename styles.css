@@ -17,7 +17,7 @@ justify-content:center;
   background-color: hsl(0, 0%, 95%)
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
 .container {
 min-height:95vh;
 min-width:95vw;
@@ -68,7 +68,7 @@ border-radius:50%;
 }
 .cc1 {border-radius: 7px 0 0 7px}
 .cc3 {border-radius: 0 7px 7px 0}
-@media screen and (max-width: 450px)  {
+@media screen and (max-width: 900px)  {
   .cc1 {
 border-radius: 7px 7px 0 0;  
 }
