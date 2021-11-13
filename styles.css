@@ -127,11 +127,13 @@ border-radius: 20px;
 }
 .Moveright1 {
  animation-name: sedan;
-  animation-duration: 1s
+  animation-duration: 1s;
   }
 .Moveright2 {
   animation-name: suv;
+  animation-duration: 1s;
   }
 .Moveright3 {
   animation-name: luxury;
+  animation-duration: 1s;
   [
