@@ -45,7 +45,7 @@ color:hsla(0,0%,100%,0.75);
 font-family:'Lexend Deca';
 }
 p {
-font-size: 16px;
+font-size: 15px;
 }
 
 .sect { /*This was just for testing, sry*/
@@ -72,7 +72,7 @@ border-radius:50%;
 
 
 .padding {
-padding: 30px 60px;
+padding: 40px 60px 30px 80px;
 }
 
 .margin {
@@ -113,6 +113,6 @@ border: solid hsl(0, 0%, 95%);
 }
 .roundbit {
 border-radius: 20px;
-  width: 65%;
-  height: 10%
+  width: 80%;
+  height: 15%
 }
