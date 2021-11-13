@@ -119,3 +119,7 @@ border: solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%)
  background-color: hsl(179, 100%, 13%);
 }
+.roundbit {
+border-radius: 20px;
+  width: 35%;
+}
