@@ -11,7 +11,7 @@ min-height:95vh;
 min-width:95vw;
 display:grid;
 grid-template-rows:100%;
-grid-template-columns:repeat(3, 305%);
+grid-template-columns:repeat(3, 305px);
 align-items:center;
 justify-content:center;
   background-color: hsl(0, 0%, 95%)
