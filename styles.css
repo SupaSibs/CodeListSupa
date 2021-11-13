@@ -81,7 +81,7 @@ padding: 20px 40px;
 }
 
 .margin {
-margin-bottom:64px;
+margin-bottom:100px;
 }
 @media screen and (max-width: 500px;) {
 .cc1, .cc2, .cc3 {
@@ -89,38 +89,38 @@ margin-bottom:64px;
   }
 }
 .but1 {
-color: hsl(31, 77%, 52%)
- background-color: hsl(0, 0%, 95%)
+color: hsl(31, 77%, 52%);
+ background-color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%);
 }
 
 .but1:hover {
 border: solid hsl(0, 0%, 95%);
-  color: hsl(0, 0%, 95%)
-   1background-color: hsl(31, 77%, 52%)
+  color: hsl(0, 0%, 95%);
+   1background-color: hsl(31, 77%, 52%);
 }
 .but2 {
-color: hsl(184, 100%, 22%)
-background-color: hsl(0, 0%, 95%)
+color: hsl(184, 100%, 22%);
+background-color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%);
 }  
 
 .but2:hover {
 border: solid hsl(0, 0%, 95%);
-  color: hsl(0, 0%, 95%)
-  background-color: hsl(184, 100%, 22%)
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
 }
 .but3 {
 color: hsl(178, 100%, 13%);
-background-color: hsl(0, 0%, 95%)
+background-color: hsl(0, 0%, 95%);
   border: solid hsl(0, 0%, 95%);
 }
 .but3:hover {
 border: solid hsl(0, 0%, 95%);
-  color: hsl(0, 0%, 95%)
+  color: hsl(0, 0%, 95%);
  background-color: hsl(179, 100%, 13%);
 }
 .roundbit {
 border-radius: 20px;
-  width: 35%;
+  width: 55%;
 }
