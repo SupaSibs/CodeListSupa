@@ -140,22 +140,22 @@ border-radius: 20px;
 @keyframes sedan {
  from {
   position: relative;
-   left: 0;
+   margin-left: 0;
   } 
   15% {
    position: relative;
-   left: 50px; 
+   margin-left: 50px; 
   }
   30% {
     position: relative;
-   left: 125px
+   margin-left: 125px
   }
   65% {
     position: relative;
-   left: 300px;
+   margin-left: 300px;
   }
   to {
     position: relative;
-   left: 0;
+   margin-left: 0;
   }
   }
