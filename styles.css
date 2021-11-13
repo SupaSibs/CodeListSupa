@@ -68,26 +68,17 @@ background-color:hsl(179,100%,13%);
 border-radius:50%;
 }
 
-.cc1 {
-border-radius:7px 0 0 7px;
-}
 
-.cc3 {
-border-radius:0 7px 7px 0;
-}
+
 
 .padding {
-padding: 20px 40px;
+padding: 30px 60px;
 }
 
 .margin {
 margin-bottom:100px;
 }
-@media screen and (max-width: 500px;) {
-.cc1, .cc2, .cc3 {
-  border-radius: 7px;
-  }
-}
+
 .but1 {
 color: hsl(31, 77%, 52%);
  background-color: hsl(0, 0%, 95%);
