@@ -36,14 +36,18 @@ text-transform:uppercase;
 }
 
 .containerchild {
-height:50%;
+height:59%;
  
 }
 @media screen and (max-width: 450px) {
 .containerchild {
  height: 81%; 
   }
-}
+@media screen and (min-width: 451px) and (max-width: 1300px) {
+  .containerchild {
+  height: 50%;
+  }
+  }
 
 .LexDec, p {
 color:hsla(0,0%,100%,0.75);
