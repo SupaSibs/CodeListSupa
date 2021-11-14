@@ -17,7 +17,7 @@ justify-content:center;
   background-color: hsl(0, 0%, 95%)
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 450px) {
 .container {
 min-height:95vh;
 min-width:95vw;
@@ -39,6 +39,12 @@ text-transform:uppercase;
 height:57%;
  
 }
+@media screen and (max-width: 450px) {
+.containerchild {
+ height: 67%; 
+  }
+}
+
 .LexDec, p {
 color:hsla(0,0%,100%,0.75);
 font-family:'Lexend Deca';
@@ -68,7 +74,7 @@ border-radius:50%;
 }
 .cc1 {border-radius: 7px 0 0 7px}
 .cc3 {border-radius: 0 7px 7px 0}
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 450px)  {
   .cc1 {
 border-radius: 7px 7px 0 0;  
 }
