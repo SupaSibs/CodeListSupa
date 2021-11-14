@@ -17,7 +17,7 @@ justify-content:center;
   background-color: hsl(0, 0%, 95%)
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
 .container {
 min-height:95vh;
 min-width:95vw;
@@ -39,13 +39,15 @@ text-transform:uppercase;
 height:69%;
  
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 375px) {
 .containerchild {
  height: 81%; 
   }
   }
 
-  
+  @media screen and (min-height: 1000px) {
+height: 45%;
+}
  
 
 .LexDec, p {
@@ -77,7 +79,7 @@ border-radius:50%;
 }
 .cc1 {border-radius: 7px 0 0 7px}
 .cc3 {border-radius: 0 7px 7px 0}
-@media screen and (max-width: 450px)  {
+@media screen and (max-width: 375px)  {
   .cc1 {
 border-radius: 7px 7px 0 0;  
 }
