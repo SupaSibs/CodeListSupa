@@ -17,7 +17,7 @@ justify-content:center;
   background-color: hsl(0, 0%, 95%)
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
 .container {
 min-height:95vh;
 min-width:95vw;
@@ -39,7 +39,7 @@ text-transform:uppercase;
 height:59%;
  
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
 .containerchild {
  height: 81%; 
   }
