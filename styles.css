@@ -36,7 +36,7 @@ text-transform:uppercase;
 }
 
 .containerchild {
-height:57%;
+height:50%;
  
 }
 @media screen and (max-width: 450px) {
@@ -50,7 +50,7 @@ color:hsla(0,0%,100%,0.75);
 font-family:'Lexend Deca';
 }
 p {
-font-size: 15px;
+font-size: 14px;
 }
 
 .sect { /*This was just for testing, sry*/
