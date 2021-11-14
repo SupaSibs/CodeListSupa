@@ -36,7 +36,7 @@ text-transform:uppercase;
 }
 
 .containerchild {
-height:69%;
+height:69vh;
  
 }
 @media screen and (max-width: 375px) {
@@ -46,7 +46,7 @@ height:69%;
   }
 
   @media screen and (min-height: 1000px) {
-height: 45%;
+height: 45vh;
 }
  
 
